@@ -1,9 +1,26 @@
-packs_bin
+# Binaries
 scanner_bin
 employee_bin
 employee_packs_bin
+packs_bin
 api_bin
 securthy
-*.sec
-*.json
-*.txt
+
+# Generated reports
+report_*.json
+report_*.txt
+report_*.sec
+pack_report_*.json
+employee_report_*.json
+employee_remediation_*.json
+employee_remediation_*.txt
+network_report_*.json
+combined_report_*.json
+
+# Runtime files
+targets.json
+employees_generated.json
+
+# Go build cache
+*.test
+*.out
