@@ -1,0 +1,9 @@
+packs_bin
+scanner_bin
+employee_bin
+employee_packs_bin
+api_bin
+securthy
+*.sec
+*.json
+*.txt
