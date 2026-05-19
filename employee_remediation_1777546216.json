@@ -1,0 +1,314 @@
+{
+  "generated_at": "2026-04-30T11:50:16+01:00",
+  "total_employees": 8,
+  "critical_risk_employees": null,
+  "high_risk_employees": [
+    "Inf. Fatima Khelifi",
+    "Inf. Sara Boudiaf"
+  ],
+  "needs_phishing_training": [
+    "Dr. Mohamed Benali",
+    "Dr. Karima Hadj",
+    "Dr. Youssef Meziane",
+    "Inf. Fatima Khelifi",
+    "Inf. Sara Boudiaf",
+    "Admin. Karim Mansouri",
+    "Fact. Omar Zerrouki",
+    "Fact. Lynda Aouadi"
+  ],
+  "needs_password_policy": [
+    "Dr. Mohamed Benali",
+    "Dr. Karima Hadj",
+    "Dr. Youssef Meziane",
+    "Inf. Fatima Khelifi",
+    "Inf. Sara Boudiaf",
+    "Admin. Karim Mansouri"
+  ],
+  "needs_wifi_awareness": null,
+  "employee_actions": [
+    {
+      "employee_id": "E001",
+      "name": "Dr. Mohamed Benali",
+      "role": "doctor",
+      "risk": 56.5,
+      "actions": [
+        {
+          "priority": 1,
+          "category": "phishing",
+          "title": "Formation anti-phishing obligatoire",
+          "description": "Formation 2h sur reconnaissance emails suspects. Re-test après 30 jours.",
+          "iso_control": "A.6.3.1",
+          "deadline": "7 jours"
+        },
+        {
+          "priority": 2,
+          "category": "password",
+          "title": "Changement immédiat des mots de passe",
+          "description": "Minimum 12 caractères, complexité requise. Activer MFA si disponible.",
+          "iso_control": "A.5.17",
+          "deadline": "24 heures"
+        },
+        {
+          "priority": 3,
+          "category": "email",
+          "title": "Configuration sécurité email",
+          "description": "Configurer SPF/DKIM/DMARC. Former l'employé à vérifier les expéditeurs.",
+          "iso_control": "A.8.23",
+          "deadline": "14 jours"
+        }
+      ]
+    },
+    {
+      "employee_id": "E002",
+      "name": "Dr. Karima Hadj",
+      "role": "doctor",
+      "risk": 56.5,
+      "actions": [
+        {
+          "priority": 1,
+          "category": "phishing",
+          "title": "Formation anti-phishing obligatoire",
+          "description": "Formation 2h sur reconnaissance emails suspects. Re-test après 30 jours.",
+          "iso_control": "A.6.3.1",
+          "deadline": "7 jours"
+        },
+        {
+          "priority": 2,
+          "category": "password",
+          "title": "Changement immédiat des mots de passe",
+          "description": "Minimum 12 caractères, complexité requise. Activer MFA si disponible.",
+          "iso_control": "A.5.17",
+          "deadline": "24 heures"
+        },
+        {
+          "priority": 3,
+          "category": "email",
+          "title": "Configuration sécurité email",
+          "description": "Configurer SPF/DKIM/DMARC. Former l'employé à vérifier les expéditeurs.",
+          "iso_control": "A.8.23",
+          "deadline": "14 jours"
+        }
+      ]
+    },
+    {
+      "employee_id": "E003",
+      "name": "Dr. Youssef Meziane",
+      "role": "doctor",
+      "risk": 56.5,
+      "actions": [
+        {
+          "priority": 1,
+          "category": "phishing",
+          "title": "Formation anti-phishing obligatoire",
+          "description": "Formation 2h sur reconnaissance emails suspects. Re-test après 30 jours.",
+          "iso_control": "A.6.3.1",
+          "deadline": "7 jours"
+        },
+        {
+          "priority": 2,
+          "category": "password",
+          "title": "Changement immédiat des mots de passe",
+          "description": "Minimum 12 caractères, complexité requise. Activer MFA si disponible.",
+          "iso_control": "A.5.17",
+          "deadline": "24 heures"
+        },
+        {
+          "priority": 3,
+          "category": "email",
+          "title": "Configuration sécurité email",
+          "description": "Configurer SPF/DKIM/DMARC. Former l'employé à vérifier les expéditeurs.",
+          "iso_control": "A.8.23",
+          "deadline": "14 jours"
+        }
+      ]
+    },
+    {
+      "employee_id": "E004",
+      "name": "Inf. Fatima Khelifi",
+      "role": "nurse",
+      "risk": 68.5,
+      "actions": [
+        {
+          "priority": 1,
+          "category": "phishing",
+          "title": "Formation anti-phishing obligatoire",
+          "description": "Formation 2h sur reconnaissance emails suspects. Re-test après 30 jours.",
+          "iso_control": "A.6.3.1",
+          "deadline": "7 jours"
+        },
+        {
+          "priority": 2,
+          "category": "password",
+          "title": "Changement immédiat des mots de passe",
+          "description": "Minimum 12 caractères, complexité requise. Activer MFA si disponible.",
+          "iso_control": "A.5.17",
+          "deadline": "24 heures"
+        },
+        {
+          "priority": 3,
+          "category": "email",
+          "title": "Configuration sécurité email",
+          "description": "Configurer SPF/DKIM/DMARC. Former l'employé à vérifier les expéditeurs.",
+          "iso_control": "A.8.23",
+          "deadline": "14 jours"
+        }
+      ]
+    },
+    {
+      "employee_id": "E005",
+      "name": "Inf. Sara Boudiaf",
+      "role": "nurse",
+      "risk": 68.5,
+      "actions": [
+        {
+          "priority": 1,
+          "category": "phishing",
+          "title": "Formation anti-phishing obligatoire",
+          "description": "Formation 2h sur reconnaissance emails suspects. Re-test après 30 jours.",
+          "iso_control": "A.6.3.1",
+          "deadline": "7 jours"
+        },
+        {
+          "priority": 2,
+          "category": "password",
+          "title": "Changement immédiat des mots de passe",
+          "description": "Minimum 12 caractères, complexité requise. Activer MFA si disponible.",
+          "iso_control": "A.5.17",
+          "deadline": "24 heures"
+        },
+        {
+          "priority": 3,
+          "category": "email",
+          "title": "Configuration sécurité email",
+          "description": "Configurer SPF/DKIM/DMARC. Former l'employé à vérifier les expéditeurs.",
+          "iso_control": "A.8.23",
+          "deadline": "14 jours"
+        }
+      ]
+    },
+    {
+      "employee_id": "E006",
+      "name": "Admin. Karim Mansouri",
+      "role": "admin",
+      "risk": 54.4,
+      "actions": [
+        {
+          "priority": 1,
+          "category": "phishing",
+          "title": "Formation anti-phishing obligatoire",
+          "description": "Formation 2h sur reconnaissance emails suspects. Re-test après 30 jours.",
+          "iso_control": "A.6.3.1",
+          "deadline": "7 jours"
+        },
+        {
+          "priority": 2,
+          "category": "password",
+          "title": "Changement immédiat des mots de passe",
+          "description": "Minimum 12 caractères, complexité requise. Activer MFA si disponible.",
+          "iso_control": "A.5.17",
+          "deadline": "24 heures"
+        },
+        {
+          "priority": 3,
+          "category": "email",
+          "title": "Configuration sécurité email",
+          "description": "Configurer SPF/DKIM/DMARC. Former l'employé à vérifier les expéditeurs.",
+          "iso_control": "A.8.23",
+          "deadline": "14 jours"
+        }
+      ]
+    },
+    {
+      "employee_id": "E007",
+      "name": "Fact. Omar Zerrouki",
+      "role": "billing",
+      "risk": 49.5,
+      "actions": [
+        {
+          "priority": 1,
+          "category": "phishing",
+          "title": "Formation anti-phishing obligatoire",
+          "description": "Formation 2h sur reconnaissance emails suspects. Re-test après 30 jours.",
+          "iso_control": "A.6.3.1",
+          "deadline": "7 jours"
+        },
+        {
+          "priority": 2,
+          "category": "email",
+          "title": "Configuration sécurité email",
+          "description": "Configurer SPF/DKIM/DMARC. Former l'employé à vérifier les expéditeurs.",
+          "iso_control": "A.8.23",
+          "deadline": "14 jours"
+        }
+      ]
+    },
+    {
+      "employee_id": "E008",
+      "name": "Fact. Lynda Aouadi",
+      "role": "billing",
+      "risk": 49.5,
+      "actions": [
+        {
+          "priority": 1,
+          "category": "phishing",
+          "title": "Formation anti-phishing obligatoire",
+          "description": "Formation 2h sur reconnaissance emails suspects. Re-test après 30 jours.",
+          "iso_control": "A.6.3.1",
+          "deadline": "7 jours"
+        },
+        {
+          "priority": 2,
+          "category": "email",
+          "title": "Configuration sécurité email",
+          "description": "Configurer SPF/DKIM/DMARC. Former l'employé à vérifier les expéditeurs.",
+          "iso_control": "A.8.23",
+          "deadline": "14 jours"
+        }
+      ]
+    }
+  ],
+  "global_actions": [
+    {
+      "priority": 1,
+      "category": "policy",
+      "title": "Charte informatique — mise à jour",
+      "description": "Rédiger et faire signer une charte informatique couvrant: mots de passe, USB, phishing, données DEM.",
+      "iso_control": "A.6.2",
+      "deadline": "30 jours"
+    },
+    {
+      "priority": 2,
+      "category": "training",
+      "title": "Session de sensibilisation collective",
+      "description": "Formation 3h pour tout le personnel: cybersécurité hospitalière, protection données DEM/FHIR.",
+      "iso_control": "A.6.3.1",
+      "deadline": "30 jours"
+    },
+    {
+      "priority": 3,
+      "category": "phishing_sim",
+      "title": "Campagne de simulation de phishing",
+      "description": "Email de test envoyé à tous. Mesurer taux de clic. Former les cliqueurs immédiatement.",
+      "iso_control": "A.6.3.1",
+      "deadline": "60 jours"
+    },
+    {
+      "priority": 4,
+      "category": "access",
+      "title": "Audit des accès au DEM",
+      "description": "Vérifier accès DEM. Révoquer comptes inutilisés depuis 90 jours.",
+      "iso_control": "A.5.15",
+      "deadline": "14 jours"
+    },
+    {
+      "priority": 5,
+      "category": "incident",
+      "title": "Procédure de signalement incidents",
+      "description": "Former le personnel: signaler emails suspects, clés USB trouvées, accès non autorisés.",
+      "iso_control": "A.6.8",
+      "deadline": "30 jours"
+    }
+  ],
+  "estimated_cost_dzd": "130000 – 180000 DZD",
+  "implementation_duration": "30–60 jours"
+}

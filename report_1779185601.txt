@@ -1,0 +1,1387 @@
+================================================================
+  SECURTHY -- RAPPORT DE SECURITE RESEAU
+  Healthcare Network Security Assessment
+================================================================
+
+  Cible scannee  : 127.0.0.0/24
+  Date du scan   : 19 May 2026 a 11:13
+  Genere par     : Securthy Platform v1.0
+
+----------------------------------------------------------------
+  RESUME EXECUTIF
+----------------------------------------------------------------
+
+  Score ISO 27001 reseau   : 37 / 100  --  D — High risk
+  Risque employes moyen    : 62 / 100
+  Score combine            : 37 / 100  --  D — High risk
+  Pack recommande          : CONFORMITE
+
+  Vulnerabilites CRITIQUES : 17
+  Vulnerabilites ELEVEES   : 13
+  Hotes analyses           : 204
+
+  [!] RISQUE ELEVE -- Vulnerabilites significatives detectees.
+      Conformite ISO 27001 incomplete. Correctifs requis sous 30 jours.
+
+----------------------------------------------------------------
+  RESULTATS PAR HOTE RESEAU
+----------------------------------------------------------------
+
+  +-- Hote : 127.0.0.1
+  |   Score : 8  |  Grade : B — low risk
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh, 5432/unknown
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.254
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.4
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.15
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.26
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.31
+  |   Score : 48  |  Grade : C — moderate
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 80/http, 22/ssh, 445/unknown
+  |   SMB  : SMBv2/v3 | signing_required=false | smbv1=false
+  |
+  |   [!!!] CRITIQUE :
+  |     - CRITICAL: Default HTTP creds work — admin / admin
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.25
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.19
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.13
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.30
+  |   Score : 63  |  Grade : D — high risk
+  |   Appareil : Windows unknown
+  |   Ports ouverts : 22/ssh, 3389/unknown, 445/unknown, 80/http, 135/unknown
+  |   SMB  : SMBv2/v3 | signing_required=false | smbv1=false
+  |   RDP  : RDP standard (no NLA, no SSL) | NLA=false
+  |
+  |   [!!!] CRITIQUE :
+  |     - CRITICAL: Default HTTP creds work — admin / admin
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.32
+  |   Score : 43  |  Grade : C — moderate
+  |   Appareil : Windows unknown
+  |   Ports ouverts : 22/ssh, 23/unknown, 80/http, 21/unknown
+  |
+  |   [!!!] CRITIQUE :
+  |     - CRITICAL: Default HTTP creds work — admin / admin
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.16
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.28
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.29
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.6
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.7
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.37
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.145
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.27
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.22
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.20
+  |   Score : 144  |  Grade : F — CRITICAL
+  |   Appareil : unknown healthcare-integration-engine
+  |   Ports ouverts : 2575/hl7, 22/ssh, 8080/http, 443/unknown
+  |
+  |   [!!!] CRITIQUE :
+  |     - CRITICAL: Default HTTP creds work — admin / admin
+  |     - CRITICAL: FHIR API on 127.0.0.20:8080 exposes PATIENT RECORDS without authentication — immediate PHI breach
+  |     - CRITICAL: HTTPS port 443 has NO TLS encryption
+  |
+  |   [!] ELEVE :
+  |     - HIGH: HL7/MLLP running without TLS - patient records transmitted in plaintext
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.35
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.146
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.40
+  |   Score : 86  |  Grade : D — high risk
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh, 23/unknown, 502/unknown
+  |   SNMP : vulnerable — communities: [public private]
+  |
+  |   [!!!] CRITIQUE :
+  |     - CRITICAL: Telnet on 127.0.0.40:23 requires NO authentication — direct shell access
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.36
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.149
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.2
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.8
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.42
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.147
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.41
+  |   Score : 70  |  Grade : D — high risk
+  |   Appareil : unknown medical-imaging (PACS/DICOM)
+  |   Ports ouverts : 104/dicom, 22/ssh, 80/http
+  |
+  |   [!!!] CRITIQUE :
+  |     - CRITICAL: Default HTTP creds work — admin / admin
+  |
+  |   [!] ELEVE :
+  |     - HIGH: DICOM running without TLS - patient imaging data transmitted in plaintext
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.150
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.24
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.39
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.152
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.49
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.47
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.9
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.14
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.43
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.156
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.10
+  |   Score : 20  |  Grade : C — moderate
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh, 443/unknown
+  |
+  |   [!!!] CRITIQUE :
+  |     - CRITICAL: HTTPS port 443 has NO TLS encryption
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.5
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.148
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.48
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.17
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.153
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.23
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.12
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.21
+  |   Score : 100  |  Grade : F — CRITICAL
+  |   Appareil : unknown medical-imaging (PACS/DICOM)
+  |   Ports ouverts : 104/dicom, 22/ssh, 8080/http, 11112/dicom
+  |
+  |   [!!!] CRITIQUE :
+  |     - CRITICAL: Default HTTP creds work — admin / admin
+  |
+  |   [!] ELEVE :
+  |     - HIGH: DICOM running without TLS - patient imaging data transmitted in plaintext
+  |     - HIGH: DICOM running without TLS - patient imaging data transmitted in plaintext
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.18
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.166
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.158
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.3
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.163
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.33
+  |   Score : 30  |  Grade : C — moderate
+  |   Appareil : Windows unknown
+  |   Ports ouverts : 22/ssh, 3389/unknown, 445/unknown, 135/unknown, 1433/unknown
+  |   SMB  : SMBv1 (CRITICAL — EternalBlue) | signing_required=false | smbv1=true
+  |   RDP  : RDP standard (no NLA, no SSL) | NLA=false
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.44
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.55
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.167
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.154
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.38
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.151
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.45
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.176
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.11
+  |   Score : 86  |  Grade : D — high risk
+  |   Appareil : unknown network-equipment
+  |   Ports ouverts : 22/ssh, 23/unknown
+  |   SNMP : vulnerable — communities: [public private]
+  |
+  |   [!!!] CRITIQUE :
+  |     - CRITICAL: Telnet on 127.0.0.11:23 requires NO authentication — direct shell access
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.174
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.162
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.165
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.60
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.168
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.183
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.178
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.155
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.66
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.54
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.173
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.169
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.172
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.157
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.188
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.46
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.69
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.182
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.51
+  |   Score : 8  |  Grade : B — low risk
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 21/unknown, 22/ssh, 445/unknown
+  |   SMB  : SMBv2/v3 | signing_required=false | smbv1=false
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.67
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.170
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.70
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.80
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.171
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.34
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.181
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.177
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.71
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.160
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.57
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.73
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.68
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.56
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.95
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.82
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.78
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.92
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.93
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.159
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.180
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.105
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.101
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.50
+  |   Score : 31  |  Grade : C — moderate
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 3306/unknown, 22/ssh
+  |   SNMP : vulnerable — communities: [public private]
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.83
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.104
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.94
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.59
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.72
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.164
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.100
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.76
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.75
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.77
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.79
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.81
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.179
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.65
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.88
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.175
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.85
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.58
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.52
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.96
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.161
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.106
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.89
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.53
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.86
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.91
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.103
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.198
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.202
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.199
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.204
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.205
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.200
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.203
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.209
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.207
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.208
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.215
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.218
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.216
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.217
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.210
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.226
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.222
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.221
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.225
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.223
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.201
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.224
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.206
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.220
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.227
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.219
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.214
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.236
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.231
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.249
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.251
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.213
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.132
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.133
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.246
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.250
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.248
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.245
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.239
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.247
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.228
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.242
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.229
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.252
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.144
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.240
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.212
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.140
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.253
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.211
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.238
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.143
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.138
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.135
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.241
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.142
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.230
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.235
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.244
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.136
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.139
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.141
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.137
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.243
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.232
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.233
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.234
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.237
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+  +-- Hote : 127.0.0.134
+  |   Score : 0  |  Grade : A — clean
+  |   Appareil : unknown unknown
+  |   Ports ouverts : 22/ssh
+  +------------------------------------------------------
+
+----------------------------------------------------------------
+  RESULTATS PAR EMPLOYE
+----------------------------------------------------------------
+
+  +-- Dr. Mohamed Benali  (doctor)
+  |   Risque : 61/100  --  D — high risk
+  |   Phishing:90  MdP:70  WiFi:20  Email:100  Priv:30
+  +------------------------------------------------------
+
+  +-- Dr. Karima Hadj  (doctor)
+  |   Risque : 61/100  --  D — high risk
+  |   Phishing:90  MdP:70  WiFi:20  Email:100  Priv:30
+  +------------------------------------------------------
+
+  +-- Dr. Youssef Meziane  (doctor)
+  |   Risque : 61/100  --  D — high risk
+  |   Phishing:90  MdP:70  WiFi:20  Email:100  Priv:30
+  +------------------------------------------------------
+
+  +-- Inf. Fatima Khelifi  (nurse)
+  |   Risque : 73/100  --  D — high risk
+  |   Phishing:90  MdP:100  WiFi:20  Email:100  Priv:60
+  +------------------------------------------------------
+
+  +-- Inf. Sara Boudiaf  (nurse)
+  |   Risque : 73/100  --  D — high risk
+  |   Phishing:90  MdP:100  WiFi:20  Email:100  Priv:60
+  +------------------------------------------------------
+
+  +-- Admin. Karim Mansouri  (admin)
+  |   Risque : 59/100  --  C — significant risk
+  |   Phishing:90  MdP:70  WiFi:20  Email:100  Priv:30
+  +------------------------------------------------------
+
+  +-- Fact. Omar Zerrouki  (billing)
+  |   Risque : 54/100  --  C — significant risk
+  |   Phishing:90  MdP:20  WiFi:20  Email:100  Priv:30
+  +------------------------------------------------------
+
+  +-- Fact. Lynda Aouadi  (billing)
+  |   Risque : 54/100  --  C — significant risk
+  |   Phishing:90  MdP:20  WiFi:20  Email:100  Priv:30
+  +------------------------------------------------------
+
+----------------------------------------------------------------
+  CONTROLES ISO 27001 EVALUES
+----------------------------------------------------------------
+
+  A.9  -- Controle d'acces        : credentials, FHIR, RDP NLA, SNMP
+  A.10 -- Cryptographie            : TLS sur DICOM/HL7, certificats
+  A.12 -- Securite operationnelle  : SMBv1, OS obsoletes, Modbus, SSH
+  A.13 -- Securite reseau          : VLAN, SMB signing, Telnet, DB
+  A.14 -- Acquisition systemes     : FHIR sans auth, DICOM sans TLS
+
+  Score global : 37/100  --  D — High risk
+
+----------------------------------------------------------------
+  PACK RECOMMANDE -- CONFORMITE
+----------------------------------------------------------------
+
+  Pack Conformite  (1 000 000 - 1 500 000 DZD  |  2-3 mois)
+
+  Correctifs inclus :
+    1. Tout le Pack Securite
+    2. Architecture securite DEM complete
+    3. Plan de reponse aux incidents
+    4. Formation cybersecurite personnel
+    5. Rapport officiel Ministere de la Sante
+    6. Contrat SLA 12 mois + 4 scans trimestriels
+
+  Score attendu apres pack : 37 -> 100 / 100
+
+----------------------------------------------------------------
+  PROCHAINES ETAPES
+----------------------------------------------------------------
+
+  1. Examiner les vulnerabilites CRITIQUES listees ci-dessus
+  2. Contacter Securthy pour activation du pack recommande
+  3. Appliquer les correctifs selon le plan de remediation
+  4. Re-scanner dans 30 jours pour valider les corrections
+
+================================================================
+  Document confidentiel -- usage interne uniquement
+  Securthy -- Healthcare Security Platform
+  Genere le 19 May 2026 11:13
+================================================================

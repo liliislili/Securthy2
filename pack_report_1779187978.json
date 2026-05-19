@@ -1,0 +1,3755 @@
+[
+  {
+    "Host": "127.0.0.30",
+    "Fix": "disable-smbv1",
+    "OS": "windows",
+    "Success": false,
+    "Output": "",
+    "Error": "WinRM connection failed to 127.0.0.30: Post \"http://127.0.0.30:5985/wsman\": dial tcp 127.0.0.30:5985: connect: connection refused",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.30",
+    "Fix": "enable-rdp-nla",
+    "OS": "windows",
+    "Success": false,
+    "Output": "",
+    "Error": "WinRM connection failed to 127.0.0.30: Post \"http://127.0.0.30:5985/wsman\": dial tcp 127.0.0.30:5985: connect: connection refused",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.30",
+    "Fix": "disable-telnet",
+    "OS": "windows",
+    "Success": false,
+    "Output": "",
+    "Error": "WinRM connection failed to 127.0.0.30: Post \"http://127.0.0.30:5985/wsman\": dial tcp 127.0.0.30:5985: connect: connection refused",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.30",
+    "Fix": "firewall-rules",
+    "OS": "windows",
+    "Success": false,
+    "Output": "",
+    "Error": "WinRM connection failed to 127.0.0.30: Post \"http://127.0.0.30:5985/wsman\": dial tcp 127.0.0.30:5985: connect: connection refused",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.30",
+    "Fix": "remove-snmp-public",
+    "OS": "windows",
+    "Success": false,
+    "Output": "",
+    "Error": "WinRM connection failed to 127.0.0.30: Post \"http://127.0.0.30:5985/wsman\": dial tcp 127.0.0.30:5985: connect: connection refused",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.32",
+    "Fix": "disable-smbv1",
+    "OS": "windows",
+    "Success": false,
+    "Output": "",
+    "Error": "WinRM connection failed to 127.0.0.32: Post \"http://127.0.0.32:5985/wsman\": dial tcp 127.0.0.32:5985: connect: connection refused",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.32",
+    "Fix": "enable-rdp-nla",
+    "OS": "windows",
+    "Success": false,
+    "Output": "",
+    "Error": "WinRM connection failed to 127.0.0.32: Post \"http://127.0.0.32:5985/wsman\": dial tcp 127.0.0.32:5985: connect: connection refused",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.32",
+    "Fix": "disable-telnet",
+    "OS": "windows",
+    "Success": false,
+    "Output": "",
+    "Error": "WinRM connection failed to 127.0.0.32: Post \"http://127.0.0.32:5985/wsman\": dial tcp 127.0.0.32:5985: connect: connection refused",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.32",
+    "Fix": "firewall-rules",
+    "OS": "windows",
+    "Success": false,
+    "Output": "",
+    "Error": "WinRM connection failed to 127.0.0.32: Post \"http://127.0.0.32:5985/wsman\": dial tcp 127.0.0.32:5985: connect: connection refused",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.32",
+    "Fix": "remove-snmp-public",
+    "OS": "windows",
+    "Success": false,
+    "Output": "",
+    "Error": "WinRM connection failed to 127.0.0.32: Post \"http://127.0.0.32:5985/wsman\": dial tcp 127.0.0.32:5985: connect: connection refused",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.33",
+    "Fix": "disable-smbv1",
+    "OS": "windows",
+    "Success": false,
+    "Output": "",
+    "Error": "WinRM connection failed to 127.0.0.33: Post \"http://127.0.0.33:5985/wsman\": dial tcp 127.0.0.33:5985: connect: connection refused",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.33",
+    "Fix": "enable-rdp-nla",
+    "OS": "windows",
+    "Success": false,
+    "Output": "",
+    "Error": "WinRM connection failed to 127.0.0.33: Post \"http://127.0.0.33:5985/wsman\": dial tcp 127.0.0.33:5985: connect: connection refused",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.33",
+    "Fix": "disable-telnet",
+    "OS": "windows",
+    "Success": false,
+    "Output": "",
+    "Error": "WinRM connection failed to 127.0.0.33: Post \"http://127.0.0.33:5985/wsman\": dial tcp 127.0.0.33:5985: connect: connection refused",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.33",
+    "Fix": "firewall-rules",
+    "OS": "windows",
+    "Success": false,
+    "Output": "",
+    "Error": "WinRM connection failed to 127.0.0.33: Post \"http://127.0.0.33:5985/wsman\": dial tcp 127.0.0.33:5985: connect: connection refused",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.33",
+    "Fix": "remove-snmp-public",
+    "OS": "windows",
+    "Success": false,
+    "Output": "",
+    "Error": "WinRM connection failed to 127.0.0.33: Post \"http://127.0.0.33:5985/wsman\": dial tcp 127.0.0.33:5985: connect: connection refused",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.1",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.1",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.254",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.254",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.4",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.4",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.15",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.15",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.26",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.26",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.31",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.31",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.25",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.25",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.19",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.19",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.13",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.13",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.16",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.16",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.28",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.28",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.29",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.29",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.6",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.6",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.7",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.7",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.37",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.37",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.145",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.145",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.27",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.27",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.22",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.22",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.20",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.20",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.35",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.35",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.146",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.146",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.40",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.40",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.36",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.36",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.149",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.149",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.2",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.2",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.8",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.8",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.42",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.42",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.147",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.147",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.41",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.41",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.150",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.150",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.24",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.24",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.39",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.39",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.152",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.152",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.49",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.49",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.47",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.47",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.9",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.9",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.14",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.14",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.43",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.43",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.156",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.156",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.10",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.10",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.5",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.5",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.148",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.148",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.48",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.48",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.17",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.17",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.153",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.153",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.23",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.23",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.12",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.12",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.21",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.21",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.18",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.18",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.166",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.166",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.158",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.158",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.3",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.3",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.163",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.163",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.44",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.44",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.55",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.55",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.167",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.167",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.154",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.154",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.38",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.38",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.151",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.151",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.45",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.45",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.176",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.176",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.11",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.11",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.174",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.174",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.162",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.162",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.165",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.165",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.60",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.60",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.168",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.168",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.183",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.183",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.178",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.178",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.155",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.155",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.66",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.66",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.54",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.54",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.173",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.173",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.169",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.169",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.172",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.172",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.157",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.157",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.188",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.188",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.46",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.46",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.69",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.69",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.182",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.182",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.51",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.51",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.67",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.67",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.170",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.170",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.70",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.70",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.80",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.80",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.171",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.171",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.34",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.34",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.181",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.181",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.177",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.177",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.71",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.71",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.160",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.160",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.57",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.57",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.73",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.73",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.68",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.68",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.56",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.56",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.95",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.95",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.82",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.82",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.78",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.78",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.92",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.92",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.93",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.93",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.159",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.159",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.180",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.180",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.105",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.105",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.101",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.101",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.50",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.50",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.83",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.83",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.104",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.104",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.94",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.94",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.59",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.59",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.72",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.72",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.164",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.164",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.100",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.100",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.76",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.76",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.75",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.75",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.77",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.77",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.79",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.79",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.81",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.81",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.179",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.179",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.65",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.65",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.88",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.88",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.175",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.175",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.85",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.85",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.58",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.58",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.52",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.52",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.96",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.96",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.161",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.161",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.106",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.106",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.89",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.89",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.53",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.53",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.86",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.86",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.91",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.91",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.103",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.103",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.198",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.198",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.202",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.202",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.199",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.199",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.204",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.204",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.205",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.205",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.200",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.200",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.203",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.203",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.209",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.209",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.207",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.207",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.208",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.208",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.215",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.215",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.218",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.218",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.216",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.216",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.217",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.217",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.210",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.210",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.226",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.226",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.222",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.222",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.221",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.221",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.225",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.225",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.223",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.223",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.201",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.201",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.224",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.224",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.206",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.206",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.220",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.220",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.227",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.227",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.219",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.219",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.214",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.214",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.236",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.236",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.231",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.231",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.249",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.249",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.251",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.251",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.213",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.213",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.132",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.132",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.133",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.133",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.246",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.246",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.250",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.250",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.248",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.248",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.245",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.245",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.239",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.239",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.247",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.247",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.228",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.228",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.242",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.242",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.229",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.229",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.252",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.252",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.144",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.144",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.240",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.240",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.212",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.212",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.140",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.140",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.253",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.253",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.211",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.211",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.238",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.238",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.143",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.143",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.138",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.138",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.135",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.135",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.241",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.241",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.142",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.142",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.230",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.230",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.235",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.235",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.244",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.244",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.136",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.136",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.139",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.139",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.141",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.141",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.137",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.137",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.243",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.243",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.232",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.232",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.233",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.233",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.234",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.234",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.237",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.237",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.134",
+    "Fix": "disable-telnet",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  },
+  {
+    "Host": "127.0.0.134",
+    "Fix": "ufw-firewall",
+    "OS": "linux",
+    "Success": false,
+    "Output": "",
+    "Error": "SSH key not found at ~/ .ssh/id_rsa: open ~/ .ssh/id_rsa: no such file or directory",
+    "Time": "2026-05-19T11:52:58+01:00"
+  }
+]
